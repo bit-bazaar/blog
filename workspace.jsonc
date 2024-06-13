@@ -27,7 +27,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "bit-bazaar.storefront",
+    "defaultScope": "bit-bazaar.blog",
     "resolveAspectsFromNodeModules": true,
     "resolveEnvsFromRoots": true
   },
@@ -77,7 +77,7 @@
   "teambit.workspace/workspace-config-files": {
     "enableWorkspaceConfigWrite": true
   },
-  "bit-bazaar.storefront/storefront": {},
-  "bit-bazaar.storefront/navbar": {},
-  "bit-bazaar.storefront/shell": {}
+  "bit-bazaar.blog/blog": {},
+  "bit-bazaar.blog/navbar": {},
+  "bit-bazaar.blog/shell": {}
 }

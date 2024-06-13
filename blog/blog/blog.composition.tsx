@@ -1,10 +1,10 @@
 import { MemoryRouter } from 'react-router-dom';
-import { Storefront } from "./storefront.js";
+import { Blog } from "./blog.js";
     
-export const StorefrontBasic = () => {
+export const BlogBasic = () => {
   return (
     <MemoryRouter>
-      <Storefront />
+      <Blog />
     </MemoryRouter>
   );
 }

@@ -3,7 +3,7 @@ import {
   createRoot, 
   // hydrateRoot 
 } from 'react-dom/client';
-import { Storefront } from "./storefront.js";
+import { Blog } from "./blog.js";
 
 /**
  * comment this in for server-side rendering (ssr) and comment 
@@ -12,7 +12,7 @@ import { Storefront } from "./storefront.js";
 // hydrateRoot(
 //   document.getElementById("root") as HTMLElement,
 //   <BrowserRouter>
-//     <Storefront />
+//     <Blog />
 //   </BrowserRouter>
 // );
 
@@ -24,6 +24,6 @@ const root = createRoot(container!);
 
 root.render(
   <BrowserRouter>
-    <Storefront />
+    <Blog />
   </BrowserRouter>
 );

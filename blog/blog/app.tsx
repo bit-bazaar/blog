@@ -1,6 +1,7 @@
+import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
-export function Storefront() {
+export function Blog() {
   return (
     <Routes>
       <Route

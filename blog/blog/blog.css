@@ -1,0 +1,41 @@
+.blog {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+}
+
+.blog-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-post {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  cursor: pointer;
+}
+
+.blog-post h2 {
+  margin: 0;
+}
+
+.blog-post-full {
+  padding: 2rem;
+}
+
+.blog-post-full h2 {
+  margin-top: 0;
+}
+
+.blog-post-full button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.blog-post-full button:hover {
+  background-color: #555;
+}

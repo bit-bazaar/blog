@@ -11,8 +11,8 @@ export default defineConfig({
     minify: false,
     lib: {
       formats: ['es'],
-      entry: './store.tsx',
-      name: 'Storefront',
+      entry: './blog.tsx',
+      name: 'Blog',
       fileName: (format, entryName) =>
         format === 'es' ? `${entryName}.js` : `${entryName}.${format}.js`,
     },

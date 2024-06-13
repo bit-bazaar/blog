@@ -649,6 +649,8 @@ importers:
       '@bit-bazaar/storefront.storefront':
         injected: true
 
+  storefront-bit: {}
+
   storefront/navbar:
     dependencies:
       '@apollo/client':

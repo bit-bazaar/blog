@@ -9,29 +9,29 @@
  */
 
 {
+    "blog": {
+        "name": "blog",
+        "scope": "",
+        "version": "",
+        "defaultScope": "bit-bazaar.blog",
+        "mainFile": "index.ts",
+        "rootDir": "blog/blog"
+    },
     "navbar": {
         "name": "navbar",
         "scope": "",
-        "version": "9c1b0137c1f9a05d33cc1868c464332ca4a2ed09",
-        "defaultScope": "bit-bazaar.storefront",
+        "version": "",
+        "defaultScope": "bit-bazaar.blog",
         "mainFile": "index.ts",
-        "rootDir": "storefront/navbar"
+        "rootDir": "blog/navbar"
     },
     "shell": {
         "name": "shell",
         "scope": "",
-        "version": "6f3c90d6153f0887f12dc196b43076f4c3e7dbad",
-        "defaultScope": "bit-bazaar.storefront",
+        "version": "",
+        "defaultScope": "bit-bazaar.blog",
         "mainFile": "index.ts",
-        "rootDir": "storefront/shell"
-    },
-    "storefront": {
-        "name": "storefront",
-        "scope": "",
-        "version": "b7c9a5b17c1555e5895c67e5b20a8bdacc918054",
-        "defaultScope": "bit-bazaar.storefront",
-        "mainFile": "index.ts",
-        "rootDir": "storefront/storefront"
+        "rootDir": "blog/shell"
     },
     "$schema-version": "17.0.0"
 }
