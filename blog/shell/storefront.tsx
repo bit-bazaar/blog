@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { Navbar } from '@bit-bazaar/storefront.navbar';
-import { Store } from '@bit-bazaar/storefront.storefront';
+import { Navbar } from '@bit-bazaar/blog.navbar';
+import { Blog } from '@bit-bazaar/blog.blog';
 
 export function Storefront() {
   return (
@@ -11,7 +11,7 @@ export function Storefront() {
         element={
           <main>
             <Navbar />
-            <Store />
+            <Blog />
           </main>
         }
       />
