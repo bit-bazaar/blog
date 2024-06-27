@@ -1,7 +1,7 @@
 /**
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://bit.dev/reference/workspace/workspace-json
- **/{
+ **/ {
   "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   /**
    * main configuration of the Bit workspace.
@@ -38,12 +38,7 @@
    * Explore more dev environments at: https://bit.dev/docs/getting-started/composing/dev-environments
    **/
   "teambit.generator/generator": {
-    "envs": [
-      "bitdev.node/node-env",
-      "bitdev.react/react-env"
-      //  "bitdev.vue/vue-env",
-      //  "bitdev.angular/angular-env"
-    ]
+    "envs": ["bit-bazaar.design/dev/react-mui"]
   },
   /**
    * main configuration for component dependency resolution.
@@ -55,6 +50,8 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
+        "@bit-bazaar/shell-app.shell-app": "^0.0.25",
+        "@bit-bazaar/shell-app.shared-dependencies": "^0.0.3",
         "@bitdev/react.app-types.react-ssr": "^2.0.0",
         "@bitdev/react.app-types.vite-react": "^2.0.1",
         "@bitdev/react.react-env": "^2.0.3",
@@ -62,7 +59,7 @@
         "@emotion/react": "^11.11.4",
         "@emotion/styled": "11.11.5",
         "@mui/icons-material": "5.15.20",
-        "@mui/material": "5.15.20",
+        "@mui/material": "^5.15.20",
         "@mui/styled-engine": "^5.15.14",
         "@mui/styles": "5.15.20",
         "@teambit/cloud-providers.deployers.netlify": "^0.1.26",
@@ -80,7 +77,6 @@
   "teambit.workspace/workspace-config-files": {
     "enableWorkspaceConfigWrite": true
   },
-  "bit-bazaar.blog/blog": {},
-  "bit-bazaar.blog/navbar": {},
-  "bit-bazaar.blog/shell": {}
+  "bit-bazaar.blog/blog-platform": {},
+  "bit-bazaar.blog/blog": {}
 }

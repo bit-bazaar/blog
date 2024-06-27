@@ -1,6 +1,9 @@
 [[headers]]
-    for = "/*"
-    [headers.values]
-        Access-Control-Allow-Origin = "*"
-        Access-Control-Allow-Methods = "GET"
-        Access-Control-Allow-Headers = "Content-Type"
+  for = "/*"
+  [headers.values]
+	cache-control = '''
+	max-age=0,
+	no-cache,
+	no-store,
+	must-revalidate'''
+    Access-Control-Allow-Origin = "*"
