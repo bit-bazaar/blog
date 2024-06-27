@@ -12,30 +12,58 @@
     "blog": {
         "name": "blog",
         "scope": "bit-bazaar.blog",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "blog/blog"
     },
     "blog-platform": {
         "name": "blog-platform",
         "scope": "bit-bazaar.blog",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "blog/blog-platform"
+    },
+    "context/article-provider": {
+        "name": "context/article-provider",
+        "scope": "bit-bazaar.blog",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "blog/context/article-provider"
+    },
+    "entities/article": {
+        "name": "entities/article",
+        "scope": "bit-bazaar.blog",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "blog/entities/article"
+    },
+    "hooks/use-articles": {
+        "name": "hooks/use-articles",
+        "scope": "bit-bazaar.blog",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "blog/hooks/use-articles"
     },
     "pages/articles-page": {
         "name": "pages/articles-page",
         "scope": "bit-bazaar.blog",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "blog/pages/articles-page"
     },
     "pages/categories-page": {
         "name": "pages/categories-page",
         "scope": "bit-bazaar.blog",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "blog/pages/categories-page"
+    },
+    "ui/article-list": {
+        "name": "ui/article-list",
+        "scope": "bit-bazaar.blog",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "blog/ui/article-list"
     },
     "$schema-version": "17.0.0"
 }

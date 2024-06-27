@@ -1,7 +1,7 @@
 /**
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://bit.dev/reference/workspace/workspace-json
- **/ {
+ **/{
   "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   /**
    * main configuration of the Bit workspace.
@@ -38,7 +38,9 @@
    * Explore more dev environments at: https://bit.dev/docs/getting-started/composing/dev-environments
    **/
   "teambit.generator/generator": {
-    "envs": ["bit-bazaar.design/dev/react-mui"]
+    "envs": [
+      "bit-bazaar.design/dev/react-mui"
+    ]
   },
   /**
    * main configuration for component dependency resolution.
@@ -50,15 +52,24 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
-        "@bit-bazaar/shell-app.shell-app": "^0.0.25",
+        "@bit-bazaar/design.actions.icon-button": "^0.0.6",
+        "@bit-bazaar/design.data-display.avatar": "^0.0.4",
+        "@bit-bazaar/design.layout.container": "^0.0.4",
+        "@bit-bazaar/design.surfaces.card": "^0.0.6",
+        "@bit-bazaar/design.typography.typography": "^0.0.4",
         "@bit-bazaar/shell-app.shared-dependencies": "^0.0.3",
+        "@bit-bazaar/shell-app.shell-app": "^0.0.25",
+        "@bitdev/node.node-env": "^2.0.2",
         "@bitdev/react.app-types.react-ssr": "^2.0.0",
         "@bitdev/react.app-types.vite-react": "^2.0.1",
-        "@bitdev/react.react-env": "^2.0.3",
+        "@bitdev/react.react-env": "^2.0.5",
         "@emotion/babel-plugin": "^11.11.0",
         "@emotion/react": "^11.11.4",
         "@emotion/styled": "11.11.5",
-        "@mui/icons-material": "5.15.20",
+        "@lazyworks/blog.context.apollo-blog-provider": "^0.0.4",
+        "@lazyworks/blog.entities.blog-metadata": "^0.0.4",
+        "@lazyworks/blog.hooks.use-blog-list": "^0.0.4",
+        "@mui/icons-material": "^5.15.20",
         "@mui/material": "^5.15.20",
         "@mui/styled-engine": "^5.15.14",
         "@mui/styles": "5.15.20",

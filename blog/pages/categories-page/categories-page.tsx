@@ -1,5 +1,7 @@
+import { Typography } from '@bit-bazaar/design.typography.typography';
+
 export type CategoriesPageProps = {};
 
 export function CategoriesPage() {
-  return <h2>Articles</h2>;
+  return <Typography variant="h1">Categories</Typography>;
 }

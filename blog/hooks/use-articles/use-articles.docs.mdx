@@ -1,0 +1,29 @@
+---
+labels: ['blog metadata', 'hook', 'contentful']
+description: 'A hook to fetch data about blog posts on the Contentful plafrom.'
+---
+
+This hook fetches data about blog posts on the Contentful platform.
+
+```ts
+() => {
+  const { blogs, loading, error } = useArticles();
+
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error loading blogs: {error.message}</p>;
+
+  return (
+    <ul>
+      {blogs &&
+        blogs.map((blog: BlogMetadata) => (
+          <li key={blog.slug} className={styles.blogPost}>
+            <h2 className={styles.blogPostTitle}>{blog.title}</h2>
+            <p className={styles.blogPostAuthor}>by {blog.author.name}</p>
+          </li>
+        ))}
+    </ul>
+  );
+};
+```
+
+Make sure to wrap this hook with the [Apollo Blog Provider](https://bit.cloud/lazyworks.blog/context/apollo-blog-provider) component to provide the necessary context for fetching blog data.

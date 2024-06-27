@@ -1,0 +1,17 @@
+---
+description: 'The Apollo Blog Provider'
+labels: ['context', 'graphql', 'apollo']
+---
+
+The Apollo GraphQL provider for Contentful blog data simplifies the way you interact with Contentful's powerful CMS, providing an efficient and developer-friendly interface to access and manage your blog content.
+
+This provider offers access to a built-in mock data provider, enabling you to develop, test, and debug your application without requiring live Contentful access. This ensures your development pipeline remains efficient and uninterrupted.
+
+```ts
+() => (
+  // Replace `spaceId` with your Contentful space ID or pass `null` to use the mock data provider.
+  <ApolloBlogProvider spaceId={null}>
+    <BlogList />
+  </ApolloBlogProvider>
+);
+```
