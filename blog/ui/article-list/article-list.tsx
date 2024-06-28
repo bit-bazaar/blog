@@ -21,6 +21,7 @@ export const ArticleList = () => {
       {articles &&
         articles.map((article: Article) => (
           <Card key={article.slug} component="li" sx={{ marginBottom: 1 }}>
+            {/* @ts-ignore */}
             <CardHeader
               avatar={
                 <Avatar
