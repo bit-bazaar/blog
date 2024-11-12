@@ -16,13 +16,6 @@
         "mainFile": "index.ts",
         "rootDir": "blog/blog"
     },
-    "blog-platform": {
-        "name": "blog-platform",
-        "scope": "bit-bazaar.blog",
-        "version": "0.0.5",
-        "mainFile": "index.ts",
-        "rootDir": "blog/blog-platform"
-    },
     "context/article-provider": {
         "name": "context/article-provider",
         "scope": "bit-bazaar.blog",
@@ -57,6 +50,14 @@
         "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "blog/pages/categories-page"
+    },
+    "shell-platform": {
+        "name": "shell-platform",
+        "scope": "bit-bazaar.shell-app",
+        "version": "0.0.25",
+        "mainFile": "index.ts",
+        "rootDir": "shell-app/shell-platform",
+        "localOnly": true
     },
     "ui/article-list": {
         "name": "ui/article-list",

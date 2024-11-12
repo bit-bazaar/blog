@@ -59,7 +59,7 @@
         "@bit-bazaar/design.typography.typography": "^0.0.4",
         "@bit-bazaar/shell-app.shared-dependencies": "^0.0.3",
         "@bit-bazaar/shell-app.shell-app": "^0.0.25",
-        "@bitdev/node.node-env": "^2.0.2",
+        "@bitdev/node.node-env": "^2.0.10",
         "@bitdev/react.app-types.react-ssr": "^2.0.0",
         "@bitdev/react.app-types.vite-react": "^2.0.1",
         "@bitdev/react.react-env": "^2.0.5",
@@ -87,7 +87,5 @@
   },
   "teambit.workspace/workspace-config-files": {
     "enableWorkspaceConfigWrite": true
-  },
-  "bit-bazaar.blog/blog-platform": {},
-  "bit-bazaar.blog/blog": {}
+  }
 }

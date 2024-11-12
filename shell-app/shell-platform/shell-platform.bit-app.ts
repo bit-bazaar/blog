@@ -10,7 +10,7 @@ const storefront = import.meta.resolve('@bit-bazaar/storefront.storefront');
 const blog = import.meta.resolve('@bit-bazaar/blog.blog');
 
 export const ShellPlatform = Platform.from({
-  name: 'blog-platform',
+  name: 'shell-platform',
 
   frontends: {
     main: shell,
