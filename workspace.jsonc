@@ -39,7 +39,8 @@
    **/
   "teambit.generator/generator": {
     "envs": [
-      "bit-bazaar.design/dev/react-mui"
+      "bit-bazaar.design/dev/react-mui",
+      "frontend.module-federation/envs/mf-react-env"
     ]
   },
   /**
